@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Haciendo Solicitudes Asíncronas</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+  <header class="masthead text-center yellow">
+    <div class="col-xs-12">
+      <h1>¿Qué te interesa hoy?</h1>
+    </div>
+    <div class="col-xs-offset-3 col-xs-6">
+      <div class="site-container">
+        <form id="search-form">
+          <label for="search-keyword" class="visuallyhidden">¿Qué buscamos?</label>
+          <input class="form-control" id="search-keyword" type="text" name="search-keyword" placeholder="e.g.Android" required>
+          <input class="btn btn-primary" id="submit-btn" type="submit" value="submit"></div>
+        </form>
+      </div>
+    </header>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="site-container">
+        <ul id="response-container"></ul>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- script -->
+  <script src="assets/app.js"></script>
+</body>
+</html>
